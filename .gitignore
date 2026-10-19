@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build / distribuição (E-BM.spec é versionado: é a config do PyInstaller)
+build/
+dist/
+
+# Banco de dados local (não versionar)
+*.db
+
+# Ferramentas de análise em Node (não fazem parte do produto)
+node_modules/
+package.json
+package-lock.json
+dump*.js
+full_dump.txt
+horas_dump.txt
+
+# Logs e temporários
+*.log
+
+# Sistema / editores
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
