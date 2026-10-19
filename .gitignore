@@ -12,15 +12,16 @@ dist/
 # Banco de dados local (não versionar)
 *.db
 
-# Ferramentas de análise em Node (não fazem parte do produto)
+# Ferramentas de analise (nao fazem parte do produto)
 node_modules/
 package.json
 package-lock.json
 dump*.js
+_inspect*.py
 full_dump.txt
 horas_dump.txt
 
-# Logs e temporários
+# Logs e temporarios
 *.log
 
 # Sistema / editores
