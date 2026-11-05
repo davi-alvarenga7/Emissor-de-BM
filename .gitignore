@@ -5,12 +5,27 @@ __pycache__/
 .venv/
 venv/
 
-# Build / distribuição (E-BM.spec é versionado: é a config do PyInstaller)
+# Build / distribuicao (E-BM.spec versionado: config do PyInstaller)
 build/
 dist/
 
-# Banco de dados local (não versionar)
+# Banco de dados local (nao versionar)
 *.db
+
+# Scripts SQL de banco de dados (nao versionar - contem dados de ambiente)
+Querys SQL/
+
+# Documentacao interna completa (contem dados sigilosos de ambiente)
+# NAO versionar. Usar README.md (versao sanitizada) para repositorio publico.
+DOCUMENTACAO_INTERNA.md
+
+# Configuracao com credenciais (contem servidor, banco, usuario/senha e SMTP)
+# NAO versionar. Use config.json.example como modelo se quiser commitar um exemplo.
+config.json
+.env
+*.env
+*.env.*
+!config.json.example
 
 # Ferramentas de analise (nao fazem parte do produto)
 node_modules/
@@ -29,3 +44,6 @@ Thumbs.db
 .DS_Store
 .vscode/
 .idea/
+
+# Asset template nao versionado (contem dados sigilosos do template DBR)
+assets/template_bm.xlsx

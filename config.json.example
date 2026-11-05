@@ -1,0 +1,24 @@
+{
+  "_comentario": "Conexao com o SQL Server. COPIE este arquivo para config.json e preencha com seus dados reais. NUNCA commite o config.json com credenciais reais.",
+  "_exemplos_server": "localhost | localhost,1433 | localhost\\SQLEXPRESS | SERVIDOR\\INSTANCIA",
+  "_exemplos_database": "EBM_HOMOLOG (desenvolvimento/testes) | EBM_PROD (producao real)",
+  "driver": "ODBC Driver 17 for SQL Server",
+  "server": "SEU_SERVIDOR\\SUA_INSTANCIA",
+  "port": "",
+  "database": "SEU_BANCO",
+  "username": "",
+  "password": "",
+  "trusted_connection": true,
+  "encrypt": true,
+  "trust_server_certificate": false,
+  "connection_timeout": 5,
+  "_comentario_smtp": "Configuracao de SMTP para notificacao de vencimento de PO (preencher quando necessario).",
+  "smtp": {
+    "servidor": "smtp.seudominio.com",
+    "porta": 587,
+    "usuario": "",
+    "senha": "",
+    "remetente": "",
+    "usar_tls": true
+  }
+}
